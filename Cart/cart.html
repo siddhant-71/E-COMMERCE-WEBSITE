@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <title>Cart</title>
+</head>
+<body id="cart-page">
+    <section>
+        <section id="header">
+            <a href=""><img src="../images/logo.png" alt="" class="logo"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="../home.html" target="_top">HOME</a></li>
+                    <li><a href="../shop/shop.html">SHOP</a></li>
+                    <li><a href="../Blog/blog.html">BLOG</a></li>
+                    <li><a href="../AboutUs/aboutUs.html">ABOUT</a></li>
+                    <li><a href="../Contact/contact.html">CONTACT</a></li>
+                    <li><a class="active" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    <a href="#" id="close"><i class="fa fa-times"></i></a>
+                </ul>
+            </div>
+            <div class="mobile">
+                <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <i id="bar" class="fas fa-outdent" style="height: 10px;"></i>
+            </div>
+        </section>
+        <section class="banner">
+            <h2>#Cart</h2>
+            <p>Add your coupon code and SAVE upto 70% !!!</p>
+        </section>
+    </section>
+    <section class="tab">
+        <table id="cartTable">
+            <thead class="head">
+                <tr>
+                    <td style="width: 14%;">remove</td>
+                    <td style="width: 12%;">Image</td>
+                    <td style="width: 29%;">Product</td>
+                    <td style="width: 12%;">Price</td>
+                    <td style="width: 14%;">Quantity</td>
+                    <td style="width: 14%;">Total</td>
+                </tr>
+            </thead>
+            <tbody class="AllCartProducts">   
+            </tbody>
+        </table>
+        <div class="After-table">
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="col1">
+            <img src="../images/logo.png" alt="">
+            <h4 style="margin-bottom: 15px;">Contact</h4>
+            <p><b>Address:</b> Navi Mumbai New Delhi Bangalore Chennai Pune</p>
+            <p><b>Phone:</b>+01 25256 84566 </p>
+            <p><b>Hours</b> 10:00 - 18:00 Mon-Sat</p>
+            <div>
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <a style="color: black;" href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a style="color: black;" href=""><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a style="color: black;" href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a style="color: black;" href=""><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+                    <a style="color: black;" href=""><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col1" style="margin-top: 9%;">
+            <h4>About</h4>
+            <ul class="aboutlist">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Delivery Informations</a></li>
+                <li><a href="">Privavy Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="col1" style="margin-top: 9%;">
+            <h4>My Account</h4>
+            <ul class="aboutlist">
+                <li><a href="">Sign In</a></li>
+                <li><a href="">View Cart</a></li>
+                <li><a href="">My WaitList</a></li>
+                <li><a href="">Track My Order</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+        <div class="col2" style="margin-top: 5%;">
+            <h4>Install App</h4>
+            <ul class="aboutlist">
+                <p>From App Store or Google Play</p>
+                <div class="Install-img">
+                    <img class="img1" src="../images/pay/app.jpg" alt="">
+                    <img class="img1" src="../images/pay/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateway</p>
+                <img src="../images/pay/pay.png" alt="">
+            </ul>
+        </div>
+    </footer>
+    <script src="../java.js"></script>
+</body>
+</html>
